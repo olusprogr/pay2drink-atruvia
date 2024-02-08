@@ -1,0 +1,56 @@
+<div class="background-image">
+
+
+   <div class="begruessung">
+      <h1>Hallo, {{username}}! </h1>             
+   </div>
+
+
+<div class="Produkte">
+      <h2>Ausgewählte Produkte: </h2>
+</div>
+
+<div class="Preisge">
+      <h3>Gesamt:</h3>
+</div>
+
+   <div class="Kategorien">
+      <button class="Alkoholf" mat-raised-button color="basic"  (click)="alkf()">Alkoholfrei</button>
+   </div>
+
+<div class="Kategorien2">
+    <p> <button mat-raised-button color="basic"  (click)="alkn()">Niedrig % iger Alkohol</button> </p>  
+</div>
+
+</div>
+
+<p style="position: absolute; top: 0; right: 0;"> <button mat-raised-button color="warn" (click)="abmelden()">Abmelden</button></p>
+
+<div class="Kategorien3">
+<p> <button mat-raised-button color="basic"  (click)="alkh()">     Hoch % iger Alkohol </button> </p> 
+</div>
+
+<div class="Menu">
+<button class="large-icon-button" mat-icon-button color="warn" ></button>
+<button mat-icon-button color="warn" >
+  <mat-icon>menu</mat-icon>
+</button>
+</div>
+
+<div class="Aufladung">
+   <button mat-raised-button color="primary" (click)="aufladen()">Aufladen</button>
+</div>
+
+<div class="GAnzeige">
+   <button mat-raised-button color="primary">{{credits}} Euro</button>
+   </div>
+
+<div class="Bezahlung">
+   <button mat-raised-button color="primary" (click)="bezahlung()"><div>Zur Kasse</div>gehen</button>
+</div>
+
+
+<div class="Gesamtpanzeige">
+   <button mat-raised-button color="primary"> 0 Euro</button>
+</div>
+
